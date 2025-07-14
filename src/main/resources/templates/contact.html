@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}">
+
+<head>
+   <title>Contact Page</title>
+</head>
+
+<body>
+   <div id="content">
+      <div class="sm:pl-20 pt-13">
+         <div class="flex justify-center flex-col items-center">
+            <h1 class="text-5xl mb-5">Welcome to Contact Page</h1>
+
+
+            <div
+               class="w-full max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+               <div class="flex items-center justify-between mb-4">
+                  <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white">Developer's Contacts</h5>
+                  
+               </div>
+               <div class="flow-root">
+                  <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
+                     <li class="py-3 sm:py-4">
+                        <div class="flex items-center ">
+                           <div class="shrink-0">
+                              <i class="fa-solid fa-a w-8 h-8"></i>
+                           </div>
+                           <div class="flex-1 min-w-0 ms-4">
+                              <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                 Name
+                              </p>
+                              <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+                                 Aakash Kumar Mathur
+                              </p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="py-3 sm:py-4">
+                        <div class="flex items-center">
+                           <div class="shrink-0">
+                              <i class="fa-brands fa-google w-8 h-8"></i>
+                           </div>
+                           <div class="flex-1 min-w-0 ms-4">
+                              <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                 Email Id
+                              </p>
+                              <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+                                 mathuraakashkumar@gmail.com
+                              </p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="py-3 sm:py-4">
+                        <div class="flex items-center ">
+                           <div class="shrink-0">
+                              <i class="fa-solid w-8 h-8 fa-phone"></i>
+                           </div>
+                           <div class="flex-1 min-w-0 ms-4">
+                              <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                 Phone Number
+                              </p>
+                              <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+                                 9301064307
+                              </p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="py-3 sm:py-4">
+                        <div class="flex items-center">
+                           <div class="shrink-0">
+                              <i class="fa-brands fa-github h-8 w-8"></i>
+                           </div>
+                           <div class="flex-1 min-w-0 ms-4">
+                              <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                 Github Account
+                              </p>
+                              <a href="https://github.com/Aakashkumarmathur" class="text-sm text-gray-500 truncate dark:text-gray-400"
+                              target="_blank">
+                                    github.com/Aakashkumarmathur
+                              </a>
+                           </div>
+                        </div>
+                     </li> 
+                  </ul>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+   <script>
+      console.log("Contact page");
+   </script>
+</body>
+
+</html>
